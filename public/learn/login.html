@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: antiquewhite;
+        }
+        .login-box{
+            height:50%;
+            width: 50%;
+            margin: auto;
+            margin-top: 10%;
+            text-align: center;
+        }
+    </style>
+   
+</head>
+<body>
+    <div class="login-box">
+        <form action="Index.html">
+        <label for="email" style="padding:10px;">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email"><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="Password" placeholder="Enter Password"><br><br>
+
+        <button type="submit" name="Login">Login</button>
+    </form>
+
+        <h4>password forgotten?<a href="login.html" style="text-decoration:none;">Reset Password</a> </h4>
+    </div>
+
+    <script>
+        var email = 'email';
+        var password ='1234';
+        if(email==email && password == 1234){
+            console.log("Login succesful!")
+        }else{
+            console.log("Input Valid email or password!")
+        }
+
+    </script>
+    
+    
+
+    
+</body>
+</html>
